@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0b7dda;
+  }
+  
+  #weather, #forecast {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .forecast-day {
+    display: inline-block;
+    background-color: #e3f2fd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .forecast-day {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode input {
+    background-color: #2e2e2e;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  body.dark-mode button {
+    background-color: #555;
+  }
+  
+  body.dark-mode button:hover {
+    background-color: #777;
+  }
+  
